@@ -1,0 +1,27 @@
+footer{
+    background-color: #2a445a !important;
+}
+.social{
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    margin: 0 .5rem !important;
+    width: 2rem !important;
+    height: 2rem !important;
+    border-radius: 50% !important;
+    color: #fff !important;
+    background-color: #cb4845 !important;
+    border: 2px solid #cb4845 !important;
+    padding: 1rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.social:hover{
+    color: #cb4845 !important;
+    background-color:transparent !important;
+}

@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #2a445a !important;
+    padding: 1rem 0 !important;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -ms-transition: .4s ease;
+    -o-transition: .4s ease;
+}
+.scrolling {
+    padding: 0 !important;
+  }
+.logo{
+    font-size: 2rem !important;
+}
+.navLink{
+    font-weight: bold !important;
+    margin: 0 .5rem !important;
+    padding: .5rem;
+}
+.activeLink{
+    background-color: #cb4845 !important;
+}
