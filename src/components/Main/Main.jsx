@@ -9,9 +9,9 @@ const Main = () => {
     <main className={`${styles.bg} text-center text-light py-5`}>
         <Container>
             <img src={avater} alt="avatar"
-            className='d-block w-25 mx-auto'
+            className={`d-block mx-auto ${styles.avatar}`}
             />
-            <div className="texts mt-3">
+            <div className="texts mt-4">
                 <h1 className='fw-bold'>Omar Samir</h1>
                 <Line/>
                 <p className='fs-5'>Frontend Developer - Video Editor</p>

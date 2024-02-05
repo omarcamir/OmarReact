@@ -27,11 +27,11 @@ const Footer = () => {
     <footer className={`${styles.footer} text-center text-light`}>
       <Container className='py-5'>
         <Row>
-          <Col md={4}>
+          <Col md={4} className='my-3'>
             <h3 className='text-uppercase'>Location</h3>
             <p className='lh-lg'>2215 John Daniel Drive<br/> Clark, MO 65243</p>
           </Col>
-          <Col md={4}>
+          <Col md={4} className='my-3'>
             <h3 className='text-uppercase'>Social</h3>
             <ul className='list-unstyled d-flex justify-content-center align-items-center'>
               {socialLinks.map((socialLink, index) => (
@@ -43,7 +43,7 @@ const Footer = () => {
               ))}
             </ul>
           </Col>
-          <Col md={4}>
+          <Col md={4} className='my-3'>
             <h3 className='text-uppercase'>About</h3>
             <p>A Frontend Developer<br/> helps you to build your next project</p>
           </Col>

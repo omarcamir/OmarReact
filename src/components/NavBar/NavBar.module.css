@@ -17,6 +17,7 @@
     font-weight: bold !important;
     margin: 0 .5rem !important;
     padding: .5rem;
+    width: fit-content;
 }
 .activeLink{
     background-color: #cb4845 !important;
