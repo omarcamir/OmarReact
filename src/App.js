@@ -11,6 +11,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import Weather from './pages/Weather';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "portfolio",
         element: <Portfolio />,
+      },
+      {
+        path: "weather",
+        element: <Weather />,
       },
       {
         path: "contact",

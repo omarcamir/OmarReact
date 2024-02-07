@@ -1,0 +1,9 @@
+.degree{
+    font-size: 2rem;
+}
+.city{
+    font-size: 1.8rem;
+}
+.degree , .city{
+    font-weight: bold;
+}

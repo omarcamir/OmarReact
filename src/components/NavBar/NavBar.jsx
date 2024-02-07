@@ -26,6 +26,10 @@ const NavBar = () => {
       name: "Portfolio",
     },
     {
+      path: "weather",
+      name: "Weather",
+    },
+    {
       path: "contact",
       name: "Contact",
     },
