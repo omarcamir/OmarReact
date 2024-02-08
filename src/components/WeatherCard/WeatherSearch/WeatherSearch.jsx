@@ -11,7 +11,7 @@ const WeatherSearch = ({ setCity }) => {
     setSearchValue("");
   };
   const handleKeyUp =(e)=>{
-    e.key == 'Enter' && handleSearch();
+    e.key === 'Enter' && handleSearch();
   }
   return (
     <div className="search my-3 w-100 d-flex justify-content-center align-items-center">
