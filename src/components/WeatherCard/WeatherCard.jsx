@@ -22,9 +22,9 @@ const WeatherCard = () => {
   return (
     <Container className='py-5'>
         <Row className='justify-content-center align-items-center'>
+          <WeatherSearch setCity={setCity}/>
             <Col md={5}>
                 <div className={`${styles.cardBox} d-flex flex-column align-items-center justify-content-between p-3 rounded-4 border border-1`}>
-                    <WeatherSearch setCity={setCity}/>
                     <WeatherDegree weather={weather}/>
                 </div>
             </Col>

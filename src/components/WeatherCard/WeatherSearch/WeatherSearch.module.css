@@ -1,9 +1,10 @@
 .searchIcon{
    border: 2px solid transparent !important;
-   color: #524e4e !important;
+   color: #fff !important;
+   background-color: #524e4e !important;
 }
 .searchIcon:hover{
     background: transparent !important;
-    border: 2px solid #fff !important;
-    color: #fff !important;
+    border: 2px solid #524e4e!important;
+    color: #524e4e !important;
 }
